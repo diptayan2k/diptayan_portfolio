@@ -604,10 +604,10 @@ body{
 
 .effect8
 {
-    position:relative;
-    -webkit-box-shadow:0 1px 4px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1) inset ;
-       -moz-box-shadow:0 1px 4px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1) inset ;
-            box-shadow:0 1px 4px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1) inset ;
+    position:relative !important;
+    -webkit-box-shadow:0 1px 4px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1) inset !important;
+       -moz-box-shadow:0 1px 4px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1) inset !important;
+            box-shadow:0 1px 4px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1) inset !important;
 }
 /*
 .effect8:before, .effect8:after
@@ -662,7 +662,7 @@ body{
   width : 80%;
   margin: auto;
   background-color: #343a40;
-  border: 10px solid #f7f8f886;
+  
   padding: 77px 99px 87px;
   box-shadow: 0px 0px 10px 0px rgba(179, 179, 179, 0.925);
   
@@ -679,6 +679,7 @@ body{
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+  
 textarea, input {
   
   color : white !important;
@@ -698,6 +699,7 @@ textarea, input {
     transform-origin: 0 0;
     cursor: text; }
 
+  
   .form-group span.border {
     
     height: 2px;
@@ -741,7 +743,7 @@ textarea.form-control {
 
 
 
-@media (max-width: 767px) {
+
   
 
   #name, #mail, #message{
@@ -775,7 +777,7 @@ textarea.form-control {
 
   .wrapper {
     
-    border: 10px solid rgba(255, 255, 255, 0.747);; }*/ }
+    border: 10px solid rgba(255, 255, 255, 0.747);; }*/ 
 
   
     textarea:hover, 
@@ -861,3 +863,13 @@ textarea.form-control {
 
 
   /* contact form end */
+
+
+  
+  
+  #lmao:hover
+  {
+    color : skyblue !important;
+    
+    
+  }

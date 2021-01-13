@@ -287,14 +287,17 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
                             <div class="col-6" id="wrapper" style="padding: 15px">
 
-                                <button type="button" class="btn btn-dark"
-                                    style="color: blanchedalmond; background-color:#343a40; ">Contact
-                                    Me</button>
+                                <a href = "#cnt">
+                                    <button type="button" class="btn btn-dark"
+                                        style="color: blanchedalmond; background-color:#343a40; ">Contact
+                                        Me</button>
+                                </a>
                             </div>
                             <div class="col-6" id="wrapper" style="padding: 15px">
-                                <button type="button" class="btn btn-dark"
-                                    style="color: blanchedalmond; background-color:#343a40;">Download
-                                    CV</button>
+                                <a href = "Resume - Diptayan Biswas 2021.pdf" target=_blank>
+                                    <button type="button" class="btn btn-dark"
+                                        style="color: blanchedalmond; background-color:#343a40;">Resume</button>
+                                </a>
                             </div>
 
                         </div>
@@ -309,11 +312,11 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
     <!--Education-->
 
-    <div class="education" id="education" style="background-color:#343a40; overflow-x: hidden ;">
+    <div class="education" id="education" style="background-color:#343a40; overflow-x: hidden;">
         <br>
         <br>
         <h1 class="section-heading" data-aos = "zoom-in" style="text-align : center; margin-top: 10px;"><span
-                style="color: blanchedalmond;/* border: 2px solid blanchedalmond;*/ padding: 8px 25px; border-radius: 6px;">
+                style="color: white;/* border: 2px solid blanchedalmond;*/ padding: 8px 25px; border-radius: 6px;">
                 My Education</span></h1>
         <br>
         <div class="main-timeline">
@@ -324,17 +327,17 @@ if(isset($_POST['email']) && $_POST['email']!='')
                 <div class="date-content">
                     <div class="date-outer" data-aos="zoom-in">
                         <span class="date" style="z-index:1000;">
-                            <span class="month" style=" color:cornsilk !important;">2017 - 2021</span>
-                            <span class="year" style=" color:cornsilk !important;">4 Years</span>
+                            <span class="month" style=" color:rgb(255, 255, 255) !important;">2017 - 2021</span>
+                            <span class="year" style=" color:rgb(255, 255, 255) !important;">4 Years</span>
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content" data-aos="slide-left">
+                <div class="timeline-content" data-aos="slide-left" style ="color: white;";>
                     <h5 class="title"> KALYANI GOVERNMENT ENGINEERING COLLEGE</h5>
-                    <p class="description">
+                    <p class="description" style ="color: rgba(255, 255, 255, 0.8);">
                         <b>Bachelor of Technology in Computer Science</b><br>
-                        <i> Kalyani, West Bengal</i> <br>
-                        CGPA: 8.55/10 (Upto 6th Semester)</i>
+                        <i style ="color: rgba(255, 255, 255, 0.6);"> Kalyani, West Bengal</i> <br>
+                        <span style ="color: rgba(255, 255, 255, 0.6);">CGPA: 8.55/10 (Upto 6th Semester)</span>
                     </p>
                 </div>
             </div>
@@ -345,18 +348,19 @@ if(isset($_POST['email']) && $_POST['email']!='')
                 <div class="icon"></div>
                 <div class="date-content">
                     <div class="date-outer" data-aos="zoom-in">
-                        <span class="date" style="z-index:1000;  color:cornsilk !important;">
+                        <span class="date" style="z-index:1000;  color:rgb(255, 255, 255) !important;">
                             <span class="month">2015 - 2017</span>
-                            <span class="year" style=" color:cornsilk !important;">2 Years</span>
+                            <span class="year" style=" color:rgb(255, 255, 255) !important;">2 Years</span>
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content" data-aos="slide-right">
+                <div class="timeline-content" data-aos="slide-right" style ="color: white;">
                     <h5 class="title">KENDRIYA VIDYALAYA NO.2 ISHAPORE</h5>
-                    <p class="description">
+                    <p class="description" style ="color: rgba(255, 255, 255, 0.8);">
                         <b>Central Board of Secondary Education</b><br>
-                        <i>Ishapore, West Bengal<br>
-                            All India Senior School Certificate Examination<br></i> Score: 90.8%</i>
+                        <i style ="color: rgba(255, 255, 255, 0.6);">Ishapore, West Bengal<br>
+                            All India Senior School Certificate Examination<br></i>
+                            <span style ="color: rgba(255, 255, 255, 0.6);">Score: 90.8%</span>
                     </p>
                 </div>
             </div>
@@ -367,18 +371,19 @@ if(isset($_POST['email']) && $_POST['email']!='')
                 <div class="icon"></div>
                 <div class="date-content">
                     <div class="date-outer" data-aos="zoom-in">
-                        <span class="date" style="z-index:1000; color:cornsilk !important;">
+                        <span class="date" style="z-index:1000; color:rgb(255, 255, 255) !important;">
                             <span class="month">Upto</span>
-                            <span class="year" style=" color:cornsilk !important;">2015</span>
+                            <span class="year" style=" color:rgb(255, 255, 255) !important;">2015</span>
                         </span>
                     </div>
                 </div>
-                <div class="timeline-content" data-aos="slide-left">
+                <div class="timeline-content" data-aos="slide-left" style ="color: white;">
                     <h5 class="title">KENDRIYA VIDYALAYA NO.2 ISHAPORE</h5>
-                    <p class="description">
+                    <p class="description" style ="color: rgba(255, 255, 255, 0.8);">
                         <b>Central Board of Secondary Education</b><br>
-                        <i>Ishapore, West Bengal<br>
-                            All India Secondary School Examination</i> <br>CGPA: 10/10
+                        <i style ="color: rgba(255, 255, 255, 0.6);">Ishapore, West Bengal<br>
+                            All India Secondary School Examination</i> <br>
+                            <span style ="color: rgba(255, 255, 255, 0.6);">CGPA: 10/10</span>
                     </p>
 
                 </div>
@@ -422,11 +427,10 @@ if(isset($_POST['email']) && $_POST['email']!='')
                             <h4 style="/*font-family: 'Courier New', Courier, monospace; font-weight: 600;*/">Data
                                 Structures &amp; Algorithms</h4>
                             <p style="color: rgba(255, 255, 255, 0.5);">
-                                I am proficient in Data Structures and Algorithms. I regularly participate in contests
-                                in different
-                                competetive coding websites. Till now I have solved more than 1000 problems in platforms
-                                like codechef,
-                                codeforces and leetcode.
+                                I am proficient in Data Structures and Algorithms. I have knowledge of 
+                                different data structures such as arrays  and graphs.
+                                I have knowledge of different algorithms such as
+                                greedy and dynammic programming. I am also familiar with time complexity concepts. 
                                 <br>
 
                             </p>
@@ -437,6 +441,33 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
             <!--*****************************************************************************************************************************************-->
 
+            <div class="col-lg-6" data-aos = "flip-left">
+
+                <table style="border-spacing: 20px; border-collapse: separate;">
+                    <tr>
+                        <td style="vertical-align: top;">
+                            <p><img src="images/cp.png" height="50px" width="50px" style="border-radius: 10px;""></p>
+                        </td>
+                        <td>
+                            <h4>Competitive Programming</h4>
+                            <p style="color: rgba(255, 255, 255, 0.5);">
+
+                                I have a great interest in competitive programming. I love to solve
+                                the challenging problems asked in competitive coding contests. I regularly
+                                participate in contests and have solved over 1000 problems in different platforms.
+                                <br>
+
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+            <!--*****************************************************************************************************************************************-->
+
+            
             <div class="col-lg-6" data-aos = "flip-right">
 
                 <table style="border-spacing: 20px; border-collapse: separate;">
@@ -448,12 +479,9 @@ if(isset($_POST['email']) && $_POST['email']!='')
                             <h4>C++</h4>
                             <p style="color: rgba(255, 255, 255, 0.5);">
 
-                                I am Diptayan Biswas, a 4th year CSE student. I have a great inerest in Competetive
-                                Coding and
-                                different fields
-                                of Computer Science. I am proficient in Data Structures, Algorithms and also familiar
-                                with CS
-                                core subjects, Machine
+                                I am proficient in C++. I have knowledge of Standard Template Library of C++.
+                                I am familiar of Object Oriented Programming concepts in C++. I have also written
+                                technical articles in C++ during my internship at GeeksforGeeks.
                                 <br>
 
                             </p>
@@ -477,12 +505,10 @@ if(isset($_POST['email']) && $_POST['email']!='')
                             <h4>Python</h4>
                             <p style="color: rgba(255, 255, 255, 0.5);">
 
-                                I am Diptayan Biswas, a 4th year CSE student. I have a great inerest in Competetive
-                                Coding and
-                                different fields
-                                of Computer Science. I am proficient in Data Structures, Algorithms and also familiar
-                                with CS
-                                core subjects, Machine
+                                I am familiar with python language. I have done multiple projects in python, I have made
+                                two of my projects, Code Debugger and Sorting Algorithm Visualizer 
+                                using TKinter library of python. I have also cleared Infosys Certification
+                                Examination (InfyTQ) in python.
                                 <br>
 
                             </p>
@@ -506,12 +532,10 @@ if(isset($_POST['email']) && $_POST['email']!='')
                             <h4>Machine Learning</h4>
                             <p style="color: rgba(255, 255, 255, 0.5);">
 
-                                I am Diptayan Biswas, a 4th year CSE student. I have a great inerest in Competetive
-                                Coding and
-                                different fields
-                                of Computer Science. I am proficient in Data Structures, Algorithms and also familiar
-                                with CS
-                                core subjects, Machine
+                                I am familiar with different regression and classification algorithms of machine learning
+                                 such as Linear Regression, Logistic Regression, SVM , Knn, Random Forest, etc. I have completed
+                                 the online course "Machine Learning by Andrew Ng" at Coursera.
+
                                 <br>
 
                             </p>
@@ -524,35 +548,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
             <!--*****************************************************************************************************************************************-->
 
-            <div class="col-lg-6" data-aos = "flip-left">
-
-                <table style="border-spacing: 20px; border-collapse: separate;">
-                    <tr>
-                        <td style="vertical-align: top;">
-                            <p><img src="images/dbms.png" height="50px" width="50px"></p>
-                        </td>
-                        <td>
-                            <h4>Database Management System</h4>
-                            <p style="color: rgba(255, 255, 255, 0.5);">
-
-                                I am Diptayan Biswas, a 4th year CSE student. I have a great inerest in Competetive
-                                Coding and
-                                different fields
-                                of Computer Science. I am proficient in Data Structures, Algorithms and also familiar
-                                with CS
-                                core subjects, Machine
-                                <br>
-
-                            </p>
-                        </td>
-                    </tr>
-                </table>
-
-
-            </div>
-
-            <!--*****************************************************************************************************************************************-->
-
+            
             <div class="col-lg-6" data-aos = "flip-right">
 
                 <table style="border-spacing: 20px; border-collapse: separate;">
@@ -596,8 +592,8 @@ if(isset($_POST['email']) && $_POST['email']!='')
             My Experience</h1>
 
         <div class="gfg"
-            style="padding: 8%; padding-top: 100px; padding-bottom : 0px; color:rgba(233, 228, 221, 0.884); font-size: 25px;">
-            <h2 class="exp" data-aos="zoom-up" style="font-size: 40px; text-align: center;">
+            style="padding: 8%; padding-top: 50px; padding-bottom : 0px; color:rgba(233, 228, 221, 0.884); font-size: 20px;">
+            <h2 class="exp" data-aos="zoom-up" style="font-size: 30px; text-align: center;">
                 Internship Experience
                 <br>
                 <br>
@@ -606,7 +602,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
             <div class="row gap-2" >
 
                 <div class="text-center col-lg-4" data-aos = "flip-up">
-                    <img src="images/gfg.png" alt="" style="padding : 20px;">
+                    <img src="images/gfg.png" alt="" style="padding : 20px; height: 80%;">
 
                 </div>
 
@@ -633,8 +629,8 @@ if(isset($_POST['email']) && $_POST['email']!='')
         </div>
 
         <div class="volunteer"
-            style="padding: 8%; padding-top: 100px; color:rgba(233, 228, 221, 0.884); font-size: 25px;">
-            <h2 class="exp" data-aos="zoom-down" style="font-size: 40px; text-align: center;">
+            style="padding: 8%; padding-top: 10px; color:rgba(233, 228, 221, 0.884); font-size: 20px;">
+            <h2 class="exp" data-aos="zoom-down" style="font-size: 30px; text-align: center;">
                 Volunteer Experience
                 <br>
                 <br>
@@ -644,7 +640,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
             <div class="row gap-2">
 
                 <div class="text-center col-lg-4" data-aos = "flip-up">
-                    <img src="images/keygen.jpg" alt="" style="padding : 20px;">
+                    <img src="images/keygen.jpg" alt="" style="padding : 20px; height: 80%;">
 
                 </div>
 
@@ -699,7 +695,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
                 style="background-color:#343a40; padding :10px; border-radius: 10px; box-shadow: 8px 8px #343a4079; ">
 
 
-                <img src="codeforces_logo.png" height="100px"
+                <img src="images/codeforces_logo.png" height="100px"
                     style="margin-bottom: 7px; margin-top:3px; max-width: 100%;">
 
                 <p style="text-align: center; height:60px">
@@ -710,7 +706,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
 
                 <div class="atgraph"  style="position: relative;">
-                    <img src="cfgraph.png" width:60% style="border-radius:6px; max-width: 100%;">
+                    <img src="images/cfgraph.png" width:60% style="border-radius:6px; max-width: 100%;">
 
                     <div class="overlayat">
                         <div class="textat" style="max-height: 80%; width : 80%; ">
@@ -736,7 +732,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
             <div class="col-lg-3 mx-auto text-center" data-aos = "fade-up" id="cp1"
                 style="background-color:#343a40; padding :10px; border-radius: 10px; box-shadow: 8px 8px #343a4079;">
-                <img src="cclogo.png" height="80px" style="margin-top: 5px; max-width: 100%;">
+                <img src="images/cclogo.png" height="80px" style="margin-top: 5px; max-width: 100%;">
                 <br>
                 <p style="text-align: center; height:60px;">
                     <span class="rating" style="display: inline-block; 
@@ -752,7 +748,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
 
                 <div class="atgraph" style="position: relative;">
-                    <img src="ccgraph.PNG" width:60%
+                    <img src="images/ccgraph.PNG" width:60%
                         style="border-radius:6px !important; max-width: 100%; min-width: 60% !important';">
 
                     <div class="overlayat">
@@ -787,7 +783,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
             <div class="col-lg-3 mx-auto text-center" data-aos = "fade-left" id="cp1"
                 style="background-color:#343a40; padding :10px; border-radius: 10px; box-shadow: 8px 8px #343a4079;">
-                <img src="atcoderlogo.png" height="80px" style="margin-top: 5px; max-width:100% !important;">
+                <img src="images/atcoderlogo.png" height="80px" style="margin-top: 5px; max-width:100% !important;">
                 <br>
                 <p style="text-align: center; height:60px;">
                     <span style="color:cyan; font-weight: 500; font-size: 25px; max-width: 100%;"> diptayan
@@ -797,7 +793,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
 
 
                 <div class="atgraph" style="position: relative;">
-                    <img src="atcodergraph.PNG" width:60% style="border-radius:6px; max-width: 100%;">
+                    <img src="images/atcodergraph.PNG" width:60% style="border-radius:6px; max-width: 100%;">
 
                     <div class="overlayat">
                         <div class="textat">1308<br>4-kyu</div>
@@ -1013,6 +1009,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
     
     </div>
 
+
     <!---------------------------------------------------------------------------------Contact Me-------------------------------------------------------->
 
     <div class = "contact" id = "cnt" style = "color :rgba(255, 255, 255, 0.747); overflow-x: hidden;">
@@ -1027,84 +1024,113 @@ if(isset($_POST['email']) && $_POST['email']!='')
             <h1 class="section-heading" data-aos = "zoom-in" style="text-align : center; margin-top: 10px;"><span style="padding: 8px 25px; border-radius: 6px;">
             CONTACT ME</span></h1>
         </div>
-        <br>
-        <br>
-        <br>
 
         
-        <div class = "row" style = "overflow : hidden;">
-            
-            <div class = "mx-auto text-center col-lg-4" data-aos="fade-right" style = "display: table; height: 600px;;; overflow: hidden;">
+        <div style = "height: 70px;"></div>
+        
+        <div class = "container">
+            <div class = "row" style = "overflow : hidden;">
                 
-                
-                
-                <div style = "display: table-cell; vertical-align: middle;">
+                <div class = "mx-auto text-center col-md-4" data-aos="fade-right" style = "display: table; height: 600px; overflow: hidden;">
+                    
+                    <br>
+                        <div>
+                            <i class='fas fa-map-marker-alt' style='font-size:30px ;color:rgb(255, 255, 255)'> Address</i><br><br>
+                            <p> 6/A Middle Road, Kalianibash, Barrackpore <br> Post Office : Nona Chandan Pukur<br> Kolkata 700122</p>
+                            <br>
+                            <i class="fas fa-mobile-alt" style="font-size:30px;color:rgb(255, 255, 255)"> Phone</i><br><br>
+                            <p>+91 7044321498</p>
+                            <br>
+                            <i class="fas fa-envelope" style="font-size:30px;color:rgb(255, 255, 255)"> Email</i><br><br>
+                            <a id = "lmao" href = "mailto:diptayan2k@gmail.com"
+                            style = "text-decoration: none; color : rgba(255, 255, 255, 0.7);">
+                            diptayan2k@gmail.com</a>
+                            <br>
+                            <br>
+                            <br>
+                            <i class="fab fa-linkedin-square" style="font-size:30px; aria-hidden="true"></i>
+                            <i class="fas" style="font-size:30px;color:white"> Linkedin</i><br><br>
+                            
+                            <a id = "lmao" href="https://www.linkedin.com/in/diptayan-biswas-6814b1137/" target=_blank 
+                            style = "text-decoration: none; color : rgba(255, 255, 255, 0.7); ">
+                                www.linkedin.com/in/diptayan-biswas-6814b1137
+                            </a>
+                        
+                        </div>
+                    
+                    
 
-                    <div>
-                        <i class='fas fa-map-marker-alt' style='font-size:30px ;color:rgb(255, 255, 255)'> Address</i><br><br>
-                        <p> 6/A Middle Road, Kalianibash, Barrackpore <br> Post Office : Nona Chandan Pukur<br> Kolkata 700122</p>
-                        <br>
-                        <i class="fas fa-mobile-alt" style="font-size:30px;color:white"> Phone</i><br><br>
-                        <p>+91 7044321498</p>
-                        <br>
-                        <i class="fas fa-envelope" style="font-size:30px;color:white"> Email</i><br><br>
-                        <p>diptayan2k@gmail.com</p>
-                        <br>
-                        <i class="fab fa-linkedin-square" style="font-size:30px; aria-hidden="true"></i>
-                        <i class="fas" style="font-size:30px;color:white"> Linkedin</i><br><br>
-                        www.linkedin.com/in/diptayan-biswas-6814b1137
+                </div>
+
+                <div class = "col-md-1"></div>
+
+                <div class="wrapper col-md-6" style = "max-width: 100%; padding : 10px;">
+                    <div class="inner effect8" data-aos= "fade-up" style = "width : 100%; padding : 30px;">
+                        <form action="" method = "POST">
+                            
+                            <h4 style = "text-align: center;">Contact Form</h4>
+                            <br>
+
+                            <label class="form-group">
+                                <input type="text" name = "name" class="form-control"  required>
+                                <span id = "name">Your Name</span>
+                                <span class="border"></span>
+                            </label>
+                            <label class="form-group">
+                                <input type="email" name = "email" class="form-control"  required style = "outline: none !important;">
+                                <span id = "mail" for="">Your Mail</span>
+                                <span class="border"></span>
+                            </label>
+                            <label class="form-group" >
+                                <textarea name="message" id="" class="form-control" required></textarea>
+                                <span class = "message" for="">Your Message</span>
+                                <span class="border"></span>
+                            </label>
+
+                            
+                            <div class = "row text-center style = "width: 100%;">
+
+                                <div class="col-6" id="wrapper" style="padding: 5px">
+
+                                    <button type="submit" value="Submit" class = "lol" style = "max-width: 100%;">Submit</button>
+                                </div>
+                                <div class="col-6" id="wrapper" style="padding: 5px">
+                                    <button type="reset" value="Reset" class = "lol" style = "max-width: 100%;">Reset </button>
+                                </div>
+
+                                    
+                                </div>
+                        
+                        </form>
                     </div>
                 </div>
-                
 
             </div>
-
-            <div class="wrapper col-lg-8 style = "max-width: 100%;">
-                <div class="inner" data-aos= "fade-up" style = "width  = 80%;">
-                    <form action="" method = "POST">
-                        
-                        <h4 style = "text-align: center;">CONTACT FORM</h4>
-                        <br>
-
-                        <label class="form-group">
-                            <input type="text" name = "name" class="form-control"  required>
-                            <span id = "name">Your Name</span>
-                            <span class="border"></span>
-                        </label>
-                        <label class="form-group">
-                            <input type="email" name = "email" class="form-control"  required style = "outline: none !important;">
-                            <span id = "mail" for="">Your Mail</span>
-                            <span class="border"></span>
-                        </label>
-                        <label class="form-group" >
-                            <textarea name="message" id="" class="form-control" required></textarea>
-                            <span class = "message" for="">Your Message</span>
-                            <span class="border"></span>
-                        </label>
-
-                        
-                        <div class = "row text-center style = "width: 100%;">
-
-                            <div class="col-6" id="wrapper" style="padding: 5px">
-
-                                <button type="submit" value="Submit" class = "lol" style = "max-width: 100%;">Submit</button>
-                            </div>
-                            <div class="col-6" id="wrapper" style="padding: 5px">
-                                <button type="reset" value="Reset" class = "lol" style = "max-width: 100%;">Reset </button>
-                            </div>
-
-                                
-                            </div>
-                    
-                    </form>
-                </div>
-            </div>
-
         </div>
 
         </div>
 
     </div>
+
+
+    <div class="footer" style = "width: 100%;
+            background-color:#343a40;
+            color: white;
+            text-align: center;
+            left: 0;
+            bottom: 0;">
+        <br>
+        
+        View source code on <a href = "https://github.com/diptayan2k/diptayan_portfolio" target = _blank style="text-decoration: none; color: skyblue">
+            Github &nbsp<i class="fab fa-github" style=" color: white; ;font-size:30px; vertical-align: sub;" aria-hidden="true" ></i>
+        </a>
+
+        <br>
+        <br>
+        
+      
+    </div>
+
 
 
 
