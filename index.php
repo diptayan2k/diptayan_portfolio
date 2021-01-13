@@ -147,7 +147,7 @@ if(isset($_POST['email']) && $_POST['email']!='')
                 <h5 style = "color: white; text-align : center;">Redirecting to the previous page...</h5>
                 <script>
                     setTimeout(function(){
-                        window.location.href = 'index.php';
+                        window.location.href = 'https://diptayanbiswas.herokuapp.com/#cnt';
                     }, 3000);
                 </script>
                 
@@ -560,12 +560,10 @@ if(isset($_POST['email']) && $_POST['email']!='')
                             <h4>HTML, CSS</h4>
                             <p style="color: rgba(255, 255, 255, 0.5);">
 
-                                I am Diptayan Biswas, a 4th year CSE student. I have a great inerest in Competetive
-                                Coding and
-                                different fields
-                                of Computer Science. I am proficient in Data Structures, Algorithms and also familiar
-                                with CS
-                                core subjects, Machine
+                                I am getting started with web development, and currently I am familiar with 
+                                HTML and CSS. My very first project after learning HTML and CSS is this portfolio website.  
+                                Currently I am a beginner, however I aspire to sharpen my skills in the field of
+                                web development.
                                 <br>
 
                             </p>
